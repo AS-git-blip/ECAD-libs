@@ -1,0 +1,179 @@
+(footprint "RES_1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.99 -1.45 0)
+		(layer "F.SilkS")
+		(uuid "aeb1c194-cebd-4f0b-8776-f97802a2b03e")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "Resistor_1206"
+		(at 0.76 1.45 0)
+		(layer "F.Fab")
+		(uuid "5041ef80-4916-463e-b19b-1b0f3557e1eb")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54052d29-671a-420d-911e-36a4de85fa88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "149dd2e4-88f8-42ce-a13f-21c35414603b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.62 -0.85)
+		(end 0.62 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b34c885-27fa-46a8-b887-74c5e228a8c3")
+	)
+	(fp_line
+		(start -0.62 0.85)
+		(end 0.62 0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f0b2ed6-2a01-4438-ba39-fed4c874dc9f")
+	)
+	(fp_line
+		(start -2.235 -1.112)
+		(end 2.235 -1.112)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7d8d540-6b2d-4182-8a3c-b5dea68ac076")
+	)
+	(fp_line
+		(start -2.235 1.112)
+		(end -2.235 -1.112)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6dbf3d30-d030-4a43-b7fa-ae2dbff608fa")
+	)
+	(fp_line
+		(start -2.235 1.112)
+		(end 2.235 1.112)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fddfec1-fc23-4f67-9f36-5d4ce675f23c")
+	)
+	(fp_line
+		(start 2.235 1.112)
+		(end 2.235 -1.112)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4517ae59-eceb-4078-a535-58e6bfea66ea")
+	)
+	(fp_line
+		(start -1.63 0.85)
+		(end -1.63 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aca15907-29ea-4625-a97c-42422f873041")
+	)
+	(fp_line
+		(start 1.63 -0.85)
+		(end -1.63 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96be8b2c-2785-486d-b950-f24652015d98")
+	)
+	(fp_line
+		(start 1.63 0.85)
+		(end -1.63 0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e2d9df3-b8f0-4ca6-9291-8359d6ba32ca")
+	)
+	(fp_line
+		(start 1.63 0.85)
+		(end 1.63 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e78c368-4565-420d-a6e9-299ed310ca69")
+	)
+	(pad "1" smd rect
+		(at -1.46 0)
+		(size 1.05 1.72)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "abcd9050-f93e-4085-a893-9997da80f620")
+	)
+	(pad "2" smd rect
+		(at 1.46 0)
+		(size 1.05 1.72)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4041a314-cf89-428b-b268-2eb77c0b5535")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/guzee/OneDrive/Рабочий стол/учеба/магистратура/САПР электронных средств/ECAD_main_project/ECAD-libs/3D/RC1206.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
