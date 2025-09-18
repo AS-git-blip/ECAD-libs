@@ -22,8 +22,9 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "ECAD_lib:LED_VSMY2850RG"
+			(at 0 -6.5 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,8 +196,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "ECAD_lib:DIO_BPW34"
+			(at 0.5 -7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
