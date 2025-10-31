@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Resistor_1206"
-		(at 0.76 1.45 0)
+		(at 0 1.5 0)
 		(layer "F.Fab")
 		(uuid "5041ef80-4916-463e-b19b-1b0f3557e1eb")
 		(effects
